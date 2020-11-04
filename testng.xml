@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Phonebook test suite" >
+    <test preserve-order="true" name="User tests">
+        <classes>
+            <class name="users.postValidUserTest"></class>
+            <class name="users.postInvalidUserTest"></class>
+        </classes>
+    </test>
+    <test preserve-order="true" name="Contacts tests">
+        <classes>
+            <class name="users.userId.contacts.postValidContactTest"></class>
+            <class name="users.userId.contacts.postInvalidContactTest"></class>
+        </classes>
+    </test>
+</suite>
